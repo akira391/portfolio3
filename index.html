@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>自己紹介</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f0f0;
+      padding: 40px;
+    }
+    .box {
+      background: white;
+      padding: 20px;
+      max-width: 500px;
+      margin: auto;
+      border-radius: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>自己紹介</h1>
+    <p id="text">はじめまして。私はゲームに興味があります。</p>
+    <button onclick="change()">クリック</button>
+  </div>
+
+  <script>
+    function change() {
+      document.getElementById("text").textContent =
+        "将来は人を楽しませるコンテンツを作りたいです。";
+    }
+  </script>
+</body>
+</html>
